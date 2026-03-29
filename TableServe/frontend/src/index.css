@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  color: #1c1917;
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+  background: #f5ede0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@theme {
+  --color-brand-cream: #f5ede0;
+  --color-brand-sand: #ead7bc;
+  --color-brand-terracotta: #b85f2f;
+  --color-brand-charcoal: #2b211b;
+  --color-brand-gold: #f0b75e;
+  --color-brand-green: #40624d;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+@media print {
+  body {
+    background: white;
+  }
+}
